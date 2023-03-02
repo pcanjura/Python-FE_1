@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicando HTML</title>
+</head>
+
+<body style="margin: 40px;">
+    <!--Inicio ejercicio 1-->
+    <table border="1">
+        <h2 style="font-style: oblique;">Ejercicio 1: Crear un formulario</h2>
+        <form action="" method="post">
+            <thead>
+                <tr>
+                    <th colspan="2">Pizza Shop 2.0</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Escriba su nombre"></td>
+                </tr>
+                <tr>
+                    <td><label for="topping">Pizza Topping</label></td>
+                    <td><input type="radio" name="topping" id="supreme">Supreme <br>
+                        <input type="radio" name="topping" id="vegetarian">Vegetarian <br>
+                        <input type="radio" name="topping" id="hawaiian">Hawaiian
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="sauce">Pizza Sauce</label></td>
+                    <td>
+                        <select name="psauce" id="psauce">
+                            <option value="tomato">Tomato</option>
+                            <option value="barbeque">Barbeque</option>
+                            <option value="mayonaise">Mayonaise</option>
+                            <option value="secretsauce">Secret Sauce</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="optionext">Optional Extras</label></td>
+                    <td><input type="checkbox" name="extracheese" id="extracheese">Extra Cheese <input type="checkbox" name="freegluten" id="freegluten">Gluten Free Base</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><label for="instruction">Delivery Instruction</label> <br><textarea name="instrucion" id="instrucion" cols="50" rows="5"></textarea></td><br>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Guardar"></td>
+                </tr>
+            </tbody>
+        </form>
+    </table>
+
+    <!--Fin Ejercicio 1-->
+
+    <!--Inicio ejercicio 2-->
+    <h2 style="font-style: oblique;">Ejercicio 2: Creando lista de enlaces</h2>
+    <ul>
+        <li>Buscadores</li>
+            <ul>
+                <li><a href="https://www.bing.com">Bing</a></li>
+                <li><a href="https://www.google.com">Google</a></li>
+            </ul><br>
+        <li>Redes Sociales</li>
+        <ul>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+        </ul>
+    </ul>
+    <!--Fin Ejercicio 2-->
+
+    <!--Inicio ejercicio 3-->
+
+    <h2 style="font-style: oblique;">Ejercicio 3: Formulario HTML</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Datos de la incidencia: </legend>
+            <div>
+                <label for="user">Usuario: </label><br>
+                <input type="text" name="user" id="user">
+            </div><br>
+            <div>
+                <label for="depto">Departamento: </label><br>
+                <select name="depto" id="depto">
+                    <option value="informatica">Informatica</option>
+                    <option value="ventas">Ventas</option>
+                    <option value="cliente">Atencion al cliente</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="descripcion">Descripción: </label><br>
+                <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Describa la incidencia..."></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Botones de reset y envío</legend>
+            <input type="submit" value="Resetear">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+    <!--Fin Ejercicio 3-->
+
+    <!--Inicio ejercicio 4-->
+
+    <h2 style="font-style: oblique;">Ejercicio 4: Recrear estructura</h2>
+    <hr>
+    <ul>
+        <li><a href="https://www.facebook.com">Facebook</a></li><br>
+        <li><a href="https://www.instagram.com">Instagram</a></li><br>
+        <li><a href="https://twitter.com">Twitter</a></li>
+    </ul>
+    <hr>
+    <label for="volver">Para volver pinchar </label><a href="">aqui</a><br><br>
+
+    <!--Fin Ejercicio 4-->
+
+    <!--Inicio ejercicio 5-->
+    <h2 style="font-style: oblique;">Ejercicio 5: Replicar estructura HTML</h2>
+    <h1>Queen</h1>
+    <h4>Banda británica de rock formada en 1970 en Londres</h4>
+    <img src="/Sesion3/static/img/queen.JPG" alt="">
+    <br>
+    <h2>Integrantes del grupo</h2>
+    <ul>
+        <li>Brian May</li>
+        <li>Freddie Mercury</li>
+        <li>John Deacon</li>
+        <li>Roger Taylor</li>
+    </ul>
+    <h2>Discografía</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Año</th><th>Disco</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1975</td><td>A Night at the Opera</td></tr>
+            <tr><td>1986</td><td>A Kind of Magic</td></tr>
+            <tr><td>1989</td><td>The Miracle</td></tr>
+            <tr><td colspan="2">"A Kind of Magic" fue el albúm más exitoso.</td>
+        </tbody>
+    </table>
+    <h2>Sitio Web Oficial</h2>
+    <a href="www.queenonline.com">www.queenonline.com</a>
+
+    <!--Fin Ejercicio 5-->
+
+    <!--Inicio ejercicio 7-->
+
+    <h2 style="font-style: oblique;">Ejercicio 7: Creando listas</h2>
+    <h3>Listas no ordenadas</h3>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ul style="list-style-type:circle">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <ul style="list-style-type:square">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <br>
+    <h3>Listas Ordenadas</h3>
+    <div>
+        <ol start="4" type="a">
+            <li>Elmento 1</li>
+            <li>Elmento 2</li>
+            <li>Elmento 3</li>
+            <li>Elmento 4</li>
+        </ol>
+        <ol start="100" type="1" reversed>
+            <li>Elmento 1</li>
+            <li>Elmento 2</li>
+            <li>Elmento 3</li>
+            <li>Elmento 4</li>
+        </ol>
+        <ol start="999" type="I">
+            <li>Elmento 1</li>
+            <li>Elmento 2</li>
+            <li>Elmento 3</li>
+            <li>Elmento 4</li>
+        </ol>
+    </div>
+    <div>
+        <ul>
+            <li>Nadadores</li>
+            <li>Ciclistas</li>
+            <li>Atletas</li>
+            <li>Futbolistas</li>
+            <ul>
+                <li>Messi</li>
+                <li>Cr7</li>
+                <li>Joao</li>
+            </ul>
+        </ul>
+    </div>
+        <!--Fin Ejercicio 7-->
+    <br>
+    <br>
+    <!--Inicio ejercicio 9-->
+    <h2 style="font-style: oblique;">Ejercicio 9: Crear listas descriptivas</h2>
+    <dl>
+        <dt><b>HTTP:</b></dt>
+        <dd>(Protocolo de transferencia de hipertexto): es un protocolo de comunicación utilizado para la transferencia de datos en la World Wide Web. HTTP define la sintaxis y la semántica que se utilizan para la comunicación entre los clientes de la web y los servidores.</dd><br>
+        <dt><b>HTML:</b></dt>
+        <dd>(Lenguaje de marcado de hipertexto): es el lenguaje utilizado para crear páginas web. Se compone de etiquetas que definen la estructura y el contenido de una página web.</dd><br>
+        <dt><b>URL:</b></dt>
+        <dd>(Localizador uniforme de recursos): es una cadena de caracteres que se utiliza para identificar un recurso en la web. Una URL típicamente incluye el protocolo de comunicación, el nombre de dominio, el puerto y la ruta al recurso.</dd><br>
+        <dt><b>TCP/IP:</b></dt>
+        <dd>(Protocolo de control de transmisión/Protocolo de Internet): es un conjunto de protocolos de red utilizados para la comunicación en la Internet y en otras redes similares. TCP se encarga de la transmisión de los datos, mientras que IP se encarga de enrutar los datos a través de la red.</dd><br>
+        <dt><b>Internet:</b></dt>
+        <dd>Es una red mundial de computadoras interconectadas que utilizan el protocolo TCP/IP para comunicarse. La Internet permite la comunicación y el intercambio de información a nivel global.</dd><br>
+        <dt><b>W3C:</b></dt>
+        <dd>(World Wide Web Consortium): es una organización internacional que se encarga de desarrollar y mantener los estándares para la World Wide Web. El W3C establece los estándares para las tecnologías web, como HTML, CSS y XML, y promueve la interoperabilidad entre los navegadores y otros sistemas web.</dd><br>
+        <dt><b>Mozilla Foundation:</b></dt>
+        <dd>Es una organización sin fines de lucro que se dedica al desarrollo de software libre y de código abierto. La fundación es conocida por su trabajo en el desarrollo del navegador web Firefox y otros proyectos relacionados con la web y la tecnología.</dd><br>
+
+    </dl>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <h1>SignUp</h1>
+    <fieldset>
+        <legend>Este es mi formulario</legend>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Digite su correo">
+            </div>
+            <div>
+                <label for="clave">Contraseña: </label>
+                <input type="password" name="clave" id="clave" placeholder="Digite su clave" required>
+            </div>
+            <div>
+                <label for="confirmar">Confirme Contraseña: </label>
+                <input type="password" name="confirmar" id="confirmar" placeholder="Digite su clave" required>
+            </div>
+            <div>
+                <label for="foto">Subir Fotografia</label>
+                <input type="file" name="foto" id="foto" required>
+            </div>
+            <input type="submit" value="Guardar">
+        </form>
+
+
+    </fieldset>
+</body>
+</html>

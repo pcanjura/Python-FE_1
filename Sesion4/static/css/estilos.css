@@ -1,0 +1,78 @@
+.top{
+    background-color: #1d8097;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.top nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.top nav a:hover {
+    background-color: #155d74;
+}
+
+.top nav a.activo {
+    background-color: #155d74;
+}
+
+.login {
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 25px;
+    min-width: 300px;
+}
+
+.user {
+    display: block;
+    margin: 0px auto;
+}
+
+.titulo {
+    text-align: center;
+    font-style: italic;
+}
+
+.etiqueta, .textbox, .primario, .forgotpass {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    width: 100%;
+    padding: 10px 0px;
+    text-indent: 5px;
+}
+
+.primario {
+    background-color: #1d8097;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+
+.primario:hover {
+    background-color: #155d74;
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+.forgotpass{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+
+.foot {
+    text-align: center;
+}

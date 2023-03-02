@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1>Pizza Shop</h1>
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+        </div><br>
+        <div>
+            <label for="pizzatop">Pizza Topping: </label> <br>
+            <input type="radio" name="topping" id="supreme">Supreme <br>
+            <input type="radio" name="topping" id="vegetarian">Vegetarian <br>
+            <input type="radio" name="topping" id="hawaian">Hawaian <br>
+        </div><br>
+        <div>
+            <label for="pizzasau">Pizza Sauce: </label>
+            <select name="sauce" id="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayones">Mayonaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="optional">Optional Extras: </label>
+            <input type="checkbox" name="extras" id="extra1" value="1">Extra Cheese
+            <input type="checkbox" name="extras" id="extra2" value="2">Gluten Free Base
+        </div><br>
+        <div>
+            <label for="delivery">Delivery Instructions: </label> <br>
+            <textarea name="delivery" id="delivery" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Send my Order">
+    </form>
+</body>
+
+</html>
