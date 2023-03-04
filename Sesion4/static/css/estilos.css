@@ -1,3 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif, Verdana;
+}
+
 .top{
     background-color: #1d8097;
     top: 0;
@@ -28,6 +37,8 @@
     padding: 30px;
     border-radius: 25px;
     min-width: 300px;
+    width: 30%;
+    margin: 100px auto;
 }
 
 .user {
@@ -74,5 +85,29 @@
 }
 
 .foot {
+    background-color: #1d8097;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
     text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    .top nav a {
+        float:none
+    }
+    .login {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .user {
+        display:none
+    }
+    .login {
+        min-width: 225px;
+    }
 }
