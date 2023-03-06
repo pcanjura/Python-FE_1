@@ -1,0 +1,53 @@
+/* .ej1 {
+    background-color: yellow;
+} */
+
+/* html {
+    background-color: orange;
+} */
+
+/* .yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.pink {
+    background-color: pink;
+}
+
+body h1 {
+    color: gray;
+}
+
+body h2 {
+    color: blue;
+}
+
+body h3 {
+    color: green;
+}
+
+body p{
+    color: rgb(12, 12, 88);
+    border-bottom-style: double;
+    background-color: darkgoldenrod;
+} */
+
+.over {
+    text-decoration: overline;
+}
+
+body h1 {
+    text-decoration: line-through;
+}
+
+body h2 {
+    text-decoration: underline;
+}
+
+body a {
+    text-decoration-line: none;
+}
