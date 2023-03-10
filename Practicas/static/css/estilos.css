@@ -1,14 +1,15 @@
-/* .ej1 {
+/*.ej1 {
     background-color: yellow;
 } */
 
-/* html {
+/*
+* {
     background-color: orange;
-} */
+} 
 
-/* .yellow {
+.yellow {
     background-color: yellow;
-}
+} 
 
 .white {
     background-color: white;
@@ -16,9 +17,9 @@
 
 .pink {
     background-color: pink;
-}
+} */
 
-body h1 {
+/* body h1 {
     color: gray;
 }
 
@@ -28,15 +29,15 @@ body h2 {
 
 body h3 {
     color: green;
-}
+} */
 
-body p{
+/* body p{
     color: rgb(12, 12, 88);
     border-bottom-style: double;
     background-color: darkgoldenrod;
-} */
+} */ 
 
-.over {
+/* .over {
     text-decoration: overline;
 }
 
@@ -50,4 +51,119 @@ body h2 {
 
 body a {
     text-decoration-line: none;
+} */
+
+/* 
+.aligned {
+    padding-right: 70%;
+}
+.aligned p {
+    text-align: left;
+}
+
+.aligned h1 {
+    text-align: right;
+}
+
+.aligned h2 {
+    text-align: center;
+}
+
+.aligned {
+    display: grid;
+} */
+
+/* .tfont h1 {
+    font-family: Georgia;
+}
+
+.tfont h2 {
+    font-family: Courier;
+}
+
+.tfont p {
+    font-family: Tahoma;
+} */ 
+
+
+/* .dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid;
+}
+
+.double {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.ouset {
+    border-style: outset;
+} */
+
+/*
+div {
+    width: 30%;
+}
+
+.setpad {
+    border-style: groove;
+    padding: 25px 50px 25px 100px;
+}
+
+.lfpad {
+    border-style: groove;
+    border-color: green;
+    padding: 75px;
+}
+
+.allpadd {
+    padding: 10%;
+} */
+
+/*
+.coll {
+    border-collapse: collapse;
+}
+
+.sep {
+    border-collapse: separate;
+} */
+
+/*
+img {
+    max-width: 25%;
+    min-height: 25%;
+}
+
+h1 {
+    background-color: gray;
+} */
+
+.content {
+    max-width: 25%;
+    min-height: 25%;
+    background-color: gainsboro;
+}
+
+div { 
+    font-family: sans-serif;
+    padding: 10px;
 }

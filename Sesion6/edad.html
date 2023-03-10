@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa para uso de IF</title>
+</head>
+<body>
+    <form action="">
+        <input type="number" name="edad" id="edad">
+        <button type="button" onclick="evaluar_edad(document.getElementById('edad').value)">
+            Evaluar
+        </button>
+        <div id="respuesta">
+
+        </div>
+        <input type="text" name="txtRespuesta" id="txtRespuesta">
+    </form>
+    <script>
+        // let edad = document.getElementById('edad').value;
+        function evaluar_edad(edad){
+            if (edad>0 && edad<18){
+                alert('es menor de edad')
+            }else if (edad>=18 && edad<60){
+                alert('es adulto')
+            }else if (edad>=60 && edad <105){
+                alert('es de la tercera edad')
+            }else{
+                alert('edad no valida')
+            }
+            /* document.getElementById('respuesta').innerHTML = 'Solo test' */ 
+            document.getElementById('txtRespuesta').value = 'Solo test'
+        }
+    </script>
+</body>
+</html>

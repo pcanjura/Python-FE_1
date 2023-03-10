@@ -1,0 +1,14 @@
+body{
+    font-family: sans-serif;
+}
+.tabla01 {
+    border: 1px dotted gray;
+
+    border-collapse: collapse;
+}
+
+.tabla01 td, .tabla01 th  {
+    border: 1px dotted gray;
+    padding: 5px;
+    text-align: center;
+}

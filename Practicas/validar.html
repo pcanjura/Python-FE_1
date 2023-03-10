@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script src="/Practicas/static/js/ejemplo_fun.js"></script>
+    <link rel="stylesheet" href="/Practicas/static/css/estilos.css">
+</head>
+<body>
+    <h1>Validación de Formulario</h1>
+    <form action="" id="formulario">
+        <fieldset class="content">
+            <legend>Favor complete el Formulario</legend>
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+    
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass">
+            </div>
+            <div>
+                <label for="passconfirm">Confirme password: </label>
+                <input type="password" name="passconfirm" id="passconfirm">
+            </div>
+            <br>
+            <div>
+                <label for="comentario">Comentarios: </label>
+                <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar" onchange="validar(document.getElementById('nombre').value)">
+        </fieldset>
+    </form>
+</body>
+</html>
