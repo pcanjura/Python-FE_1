@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <script>
+        let filas = parseInt(prompt("Introduce el número de filas: "));
+        let columnas = parseInt(prompt("Introduce el número de columnas: "));
+        let numero = filas * columnas;
+        let tablaHTML = "<table class=tabla01>";
+
+        for (let i = 0; i < filas; i++) {
+            tablaHTML += "<tr class=tabla01>";
+            for (let j = 0; j < columnas; j++) {
+                tablaHTML += "<td class=tabla01>" + numero + "</td>";
+                numero--;
+            }
+            tablaHTML += "</tr>";
+        }
+
+        tablaHTML += "</table>";
+        document.write(tablaHTML);
+
+    </script>
+</body>
+
+</html>
