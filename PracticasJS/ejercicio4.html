@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion USD/BTC</title>
+    <script src="/PracticasJS/static/js/func_practicas.js" defer></script>
+</head>
+
+<body>
+    <h1>Convertir dólares a Bitcoin y viceversa</h1>
+
+    <p>Introduce la cantidad a convertir:</p>
+    <input type="number" id="cantidad" placeholder="Cantidad" />
+    <select id="moneda-origen">
+        <option value="USD">Dólares</option>
+        <option value="BTC">Bitcoin</option>
+    </select>
+    <select id="moneda-destino">
+        <option value="USD">Dólares</option>
+        <option value="BTC">Bitcoin</option>
+    </select>
+    <button onclick="convertirMoneda()">Convertir</button>
+
+    <p>El resultado es:</p>
+    <div id="resultado"></div>
+</body>
+
+</html>

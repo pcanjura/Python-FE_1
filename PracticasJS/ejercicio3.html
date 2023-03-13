@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Formulario</title>
+    <link rel="stylesheet" href="/PracticasJS/static/css/styles.css">
+    <script src="/PracticasJS/static/js/func_practicas.js" defer></script>
+</head>
+<body>
+    <h1>Complete el siguiente formulario</h1>
+    <form action="" method="POST" id="form">
+        <div class="grupo">
+            <label for="name"><strong>Nombre: </strong></label>
+            <input type="text" name="name" id="name" placeholder="Escriba su nombre">
+        </div>
+        <div class="grupo">
+            <label for="email"><strong>Email: </strong></label>
+            <input type="email" name="email" id="email" placeholder="Escriba su Email">
+        </div>
+        <div class="grupo">
+            <label for="pass"><strong>Contraseña: </strong></label>
+            <input type="password" name="pass1" id="pass1" placeholder="Escriba su contraseña">
+        </div>
+        <div class="grupo">
+            <label for="coment"><strong>Comentarios: </strong></label><br>
+            <textarea name="coment" id="coment" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+
+        <p id="alertas"></p>
+
+    </form>
+</body>
+</html>

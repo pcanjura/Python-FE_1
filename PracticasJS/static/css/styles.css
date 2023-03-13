@@ -1,0 +1,31 @@
+
+/* CSS para ejercicio 3
+body{
+    font-family: sans-serif;
+    background-color: darkcyan;
+}
+
+.grupo{
+    padding: auto;
+    padding-top: 10px;
+}
+
+.btn {
+    font-size: 18px;
+    width: 10%;
+} */
+
+body {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.convert {
+    display: contents;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 20px;
+}
