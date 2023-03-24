@@ -1,0 +1,83 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif, Verdana;
+}
+.top {
+    background-color: #1d8097;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.top nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 15px;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+
+.top nav a:hover {
+    background-color: #155d74;
+}
+
+.top nav a.activo {
+    background-color: #155d74;
+}
+
+.login{
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 25px;
+    min-width: 300px;
+    width: 30%;
+    margin: 100px auto;
+}
+.user {display: block;margin: 0px auto}
+.titulo {text-align: center;font-style: italic;font-weight: 900;}
+.etiqueta, .textbox, .primario, .forgotpass {display: block;margin-bottom: 10px;}
+.textbox {
+    width: 100%;
+    padding: 10px 0px;
+    text-indent: 5px;
+}
+.primario{
+    background-color: #1d8097;
+    color: #fff;
+    border: none;
+    padding: 15px;
+}
+.primario:hover{background-color: #155d74;cursor: pointer;}
+.forgotpass{display: block;text-align: right;text-decoration: none;}
+.pie {
+    background-color: #1d8097;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color:#fff
+}
+
+@media screen and (max-width: 600px){
+    .top nav a{
+        float: none
+    }
+    .login {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .user {
+        display: none
+    }
+    .login {
+        min-width: 225px;
+    }
+}

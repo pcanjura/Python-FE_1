@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ens">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/estilos.css">
+    <style>
+        .login {
+            width: 30%;
+            margin: 100px auto;
+        }
+        h2 {color: red /*!important*/;}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html" class="activo">Contacto</a>
+            <a href="index.html">A cerca de</a>
+        </nav>
+    </header>
+    <main>
+        <div class="login">
+            <img src="static/img/user.png" alt="Imagen no disponible" class="user">
+            <h2 style="color: #ecb807" class="titulo">Login</h2>
+            <form action="index.html" method="post">
+                <div>
+                    <label for="usuario" class="etiqueta">Usuario</label>
+                    <input type="text" name="usuario" id="usuario" class="textbox">
+                </div>
+                <div>
+                    <label for="clave" class="etiqueta">Contraseña</label>
+                    <input type="password" name="clave" id="clave" class="textbox">
+                </div>
+                <input type="submit" value="Iniciar Sesión" class="primario">
+                <a href="index.html" class="forgotpass">Olvidate tu contraseña?</a>
+            </form>
+        </div>
+    </main>
+    <footer class="pie">
+        <p>&copy; Copyright 2023</p>
+    </footer>
+</body>
+</html>
