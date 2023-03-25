@@ -20,7 +20,15 @@ while True:
         agenda.append(cliente)
 
     if opcion == 2:
-        input('Ingrese el nombre del contacto a modificar: ')
+        buscar = input('Ingrese el nombre del contacto a modificar: ')
+        for buscar in agenda: 
+            print(f"El teléfono de {buscar} es {telefono}.")
+        
+        modificar = input("¿Quieres modificar el teléfono? (s/n): ")
+
+        if modificar == "s":
+            telefono = int(input("Ingresa el nuevo teléfono: "))
+            agenda[telefono] = telefono
 
     if opcion == 3:
         for lista in agenda:
